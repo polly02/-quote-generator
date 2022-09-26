@@ -52,14 +52,6 @@ h1 {
 }
 
 p {
-    /* color: #FFFFFF;
-    font-size: 30px;
-    position: absolute;
-    top: 43%;
-    left: 33%;
-    width: 500px;
-    line-height: 30px; */
-
     position: absolute;
     top: 45%;
     left: 15%;
@@ -68,4 +60,12 @@ p {
     text-align: center;
     color: #FFFFFF;
     width: 500px;
+}
+
+h2 {
+    font-size: 26px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 20%;
+    left: 15%;
 }

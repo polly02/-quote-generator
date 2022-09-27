@@ -23,7 +23,7 @@ const colors = ["white", "red"]
 let flag = true
 
 function showName(nameObj, valH2){
-    valH2.innerHTML = nameObj[Math.floor(Math.random() * Object.entries(nameObj).length)];
+    valH2.innerHTML = nameObj[Math.ceil(Math.random() * Object.entries(nameObj).length)];
 }
 
 setInterval(showName, 6000, nameObj, valH2)
@@ -38,7 +38,6 @@ function showItem(arr, valP) {
         valP.style = `color: ${colors[0]}`
     }
 }
-
 
 setInterval(showItem, 3000, arr, valP)
 
